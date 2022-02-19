@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./contacts.css">
+    <script src="../js/script.js" defer type="module"></script>
+</head>
+<body>
+    <header-menu link-home-href="../index.html" link-categories-href="../categories/categories.html" link-contacts-href="#"></header-menu>
+    <div class="container">
+        <h1>Contacts</h1>
+    </div>
+    <div class="cart" id="cart">
+        <div class="cart__body">
+            <div class="cart__content" id="cart-content"></div>
+            <span class="cart__close" id="cart-close"></span>
+            <button class="cart__clear" id="cart-clear">Очистить корзину</button>
+        </div>
+    </div>
+    <div class="contact-col">
+        <form method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter email address" required>
+            <textarea rows="8" name="message" placeholder="Message"></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
